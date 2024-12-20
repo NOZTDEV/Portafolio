@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(20, 19, 19);
+}
+
+/*Header*/
+header {
+    background-color: rgb(223, 83, 83);
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+
+nav a:hover {
+    color: white;
+    font-size: 25px;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(223, 83, 83);
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+footer a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+
+footer img:hover {
+    width: 25px;
+    height: 25px;
+}
+
+/*proyectos*/
+main{
+    color: rgb(223, 83, 83);
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+.proyectos {
+    display: flex;
+    border-top: 5px double rgb(223, 83, 83);
+    border-bottom: 5px double rgb(223, 83, 83);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgb(223, 83, 83);
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(223, 83, 83, 0.5);
+    border-radius: 10px;
+}
+
+.contenedor:hover {
+    width: 210px;
+    height: 310px;
+}
+
+.arriba {
+    flex: 1;
+}
+
+.abajo {
+    flex: 1;
+    text-align: justify;
+}
+
+.img{
+    background-color: rgb(223, 83, 83);
+    border-radius: 100%;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 80px;
+    height: 80px;
+}
+
+/*git*/
+.git {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.git img:hover {
+    width: 100px;
+    height: 100px;
+}
+
